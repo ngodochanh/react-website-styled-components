@@ -1,4 +1,5 @@
 import { InfoSection } from '../../components/InfoSection';
+import { Pricing } from '../../components/Pricing';
 import { homeObjFour, homeObjOne, homeObjThree, homeObjTwo } from './Data';
 
 function Home() {
@@ -7,6 +8,7 @@ function Home() {
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
+      <Pricing />
       <InfoSection {...homeObjFour} />
     </>
   );

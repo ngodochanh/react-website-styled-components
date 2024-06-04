@@ -1,4 +1,4 @@
-export const homeObjOne = {
+const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTopLine: true,
@@ -8,11 +8,11 @@ export const homeObjOne = {
   description: 'Get access to our exclusive diamond king package. Limited quantity available.',
   buttonLabel: 'Sign Up',
   imgStart: '',
-  img: require('../../images/svg-2.svg'),
+  img: require('../../images/svg-2.svg').default,
   alt: 'Credit Card',
 };
 
-export const homeObjTwo = {
+const homeObjTwo = {
   lightBg: false,
   lightText: true,
   lightTopLine: true,
@@ -23,11 +23,11 @@ export const homeObjTwo = {
     'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
   buttonLabel: 'Learn More',
   imgStart: '',
-  img: require('../../images/svg-1.svg'),
+  img: require('../../images/svg-1.svg').default,
   alt: 'Vault',
 };
 
-export const homeObjThree = {
+const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTopLine: true,
@@ -38,11 +38,11 @@ export const homeObjThree = {
     "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
   buttonLabel: 'Start Now',
   imgStart: 'start',
-  img: require('../../images/svg-1.svg'),
+  img: require('../../images/svg-1.svg').default,
   alt: 'Vault',
 };
 
-export const homeObjFour = {
+const homeObjFour = {
   lightBg: false,
   lightText: true,
   lightTopLine: true,
@@ -52,6 +52,8 @@ export const homeObjFour = {
   description: 'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
   buttonLabel: 'Sign Up Now',
   imgStart: 'start',
-  img: require('../../images/svg-1.svg'),
+  img: require('../../images/svg-1.svg').default,
   alt: 'Vault',
 };
+
+export { homeObjOne, homeObjTwo, homeObjThree, homeObjFour };
